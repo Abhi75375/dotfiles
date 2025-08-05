@@ -1,0 +1,29 @@
+#outer-box{
+	border:1px solid white;
+	border-radius: 10px;
+	padding:2px;
+}
+#window{
+	background-color:rgba(0,0,0,0.4);
+	border-radius: 10px;
+}
+#entry{
+	border-radius: 5px;
+}
+#entry:selected{
+	background-color:black;
+	border: 1px solid white;
+	outline:none;
+}
+#input{
+	background-color:transparent;
+}
+#input:focused{
+	border: 1px solid white;
+	box-shadow:none;
+}
+#img{
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
